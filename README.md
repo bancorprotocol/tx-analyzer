@@ -1,10 +1,10 @@
 # Tx Analyzer
 ### Analyze failed conversion transactions on Bancor
 
-Given an failed conversion transaction hash (on Ethereum), this utility outputs the reason it failed.
+Given an failed conversion transaction hash (on Ethereum), this utility outputs the reason for why it failed.
 
 _**Prerequisites**_
-* An Infura project ID
+* An Infura project Id
 
 _**Usage**_
 ```
