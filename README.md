@@ -4,7 +4,7 @@
 Given an failed conversion transaction hash (on Ethereum), this utility outputs the reason for why it failed.
 
 _**Prerequisites**_
-* An Infura project Id
+* Web3 endpoint
 
 _**Usage**_
 ```
