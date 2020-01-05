@@ -24,8 +24,8 @@ async function startPrompt() {
     const questions = [
         {
           type: 'text',
-          name: 'infuraProjectId',
-          message: 'Please enter your Infura project Id'
+          name: 'web3Endpoint',
+          message: 'Please enter a web3 endpoint'
         },
         {
           type: 'text',
@@ -34,9 +34,9 @@ async function startPrompt() {
         }
       ];
 
-    const { infuraProjectId, transactionHash } = await prompts(questions); 
+    const { web3Endpoint, transactionHash } = await prompts(questions); 
 
-    web3 = new Web3(`https://mainnet.infura.io/v3/${infuraProjectId}`);
+    web3 = new Web3(web3Endpoint);
     return getConversionFailureReason(transactionHash);
 }
 
