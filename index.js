@@ -25,7 +25,7 @@ async function startPrompt() {
         {
           type: 'text',
           name: 'infuraProjectId',
-          message: 'Please enter your Infura project ID'
+          message: 'Please enter your Infura project Id'
         },
         {
           type: 'text',
